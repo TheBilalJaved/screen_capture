@@ -3,7 +3,7 @@ import FlutterMacOS
 import XCTest
 
 
-@testable import flutter_screen_capture
+@testable import screen_capture
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //

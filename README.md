@@ -1,4 +1,4 @@
-# flutter_screen_capture
+# screen_capture
 
 A Flutter plugin for macOS and IOS to record the screen and capture system audio, designed for seamless integration in Flutter applications. This plugin currently supports **screen recording on macOS and IOS only**.
 
@@ -11,11 +11,11 @@ A Flutter plugin for macOS and IOS to record the screen and capture system audio
 
 ## Installation
 
-Add `flutter_screen_capture` as a dependency in your `pubspec.yaml` file:
+Add `screen_capture` as a dependency in your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_screen_capture:
+  screen_capture:
     path: path/to/your/plugin
 ```
 
@@ -23,9 +23,9 @@ Or install from GitHub (if you’re planning to publish it):
 
 ```yaml
 dependencies:
-  flutter_screen_capture:
+  screen_capture:
     git:
-      url: https://github.com/TheBilalJaved/flutter_screen_capture.git
+      url: https://github.com/TheBilalJaved/screen_capture.git
 ```
 
 Then, run:
@@ -37,10 +37,10 @@ flutter pub get
 ## Usage
 
 1. **Import the Plugin**  
-   In your Dart code, import the `flutter_screen_capture` package:
+   In your Dart code, import the `screen_capture` package:
 
    ```dart
-   import 'package:flutter_screen_capture/flutter_screen_capture.dart';
+   import 'package:screen_capture/screen_capture.dart';
    ```
 
 2. **Start and Stop Recording**  
@@ -63,7 +63,7 @@ Here is a simple example of how to implement the screen recording functionality 
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_capture/flutter_screen_capture.dart';
+import 'package:screen_capture/screen_capture.dart';
 
 void main() {
   runApp(const MyApp());

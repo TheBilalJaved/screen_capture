@@ -6,9 +6,9 @@
 // For more information about Flutter integration tests, please see
 // https://flutter.dev/to/integration-testing
 
-import 'package:flutter_screen_capture/flutter_screen_capture.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
+import 'package:screen_capture/screen_capture.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

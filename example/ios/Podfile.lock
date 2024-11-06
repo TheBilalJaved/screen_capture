@@ -1,26 +1,26 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_screen_capture (0.0.1):
+  - screen_capture (0.0.1):
     - Flutter
   - integration_test (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - flutter_screen_capture (from `.symlinks/plugins/flutter_screen_capture/ios`)
+  - screen_capture (from `.symlinks/plugins/screen_capture/ios`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  flutter_screen_capture:
-    :path: ".symlinks/plugins/flutter_screen_capture/ios"
+  screen_capture:
+    :path: ".symlinks/plugins/screen_capture/ios"
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_screen_capture: 2c1d22995095cc2aaa567022f3bf274e21a2911b
+  screen_capture: 2c1d22995095cc2aaa567022f3bf274e21a2911b
   integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
 
 PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5

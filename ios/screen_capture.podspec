@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'flutter_screen_capture'
+  s.name             = 'screen_capture'
   s.version          = '1.0.0'
   s.summary          = 'A Flutter plugin for screen recording on macOS and iOS, supporting system audio.'
   s.description      = <<-DESC

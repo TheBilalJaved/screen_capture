@@ -1,8 +1,8 @@
-import 'package:flutter_screen_capture/flutter_screen_capture.dart';
-import 'package:flutter_screen_capture/flutter_screen_capture_method_channel.dart';
-import 'package:flutter_screen_capture/flutter_screen_capture_platform_interface.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+import 'package:screen_capture/screen_capture.dart';
+import 'package:screen_capture/screen_capture_method_channel.dart';
+import 'package:screen_capture/screen_capture_platform_interface.dart';
 
 class MockFlutterScreenCapturePlatform
     with MockPlatformInterfaceMixin

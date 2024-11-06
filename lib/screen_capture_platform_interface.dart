@@ -1,6 +1,6 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-import 'flutter_screen_capture_method_channel.dart';
+import 'screen_capture_method_channel.dart';
 
 abstract class FlutterScreenCapturePlatform extends PlatformInterface {
   /// Constructs a FlutterScreenCapturePlatform.

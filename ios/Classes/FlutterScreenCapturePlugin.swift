@@ -6,7 +6,7 @@ public class FlutterScreenCapturePlugin: NSObject, FlutterPlugin {
     private let recorder = RPScreenRecorder.shared()
 
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "flutter_screen_capture", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "screen_capture", binaryMessenger: registrar.messenger())
         let instance = FlutterScreenCapturePlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }

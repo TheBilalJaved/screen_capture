@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_capture/flutter_screen_capture.dart';
+import 'package:screen_capture/screen_capture.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,13 +1,13 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_screen_capture/flutter_screen_capture_method_channel.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:screen_capture/screen_capture_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   MethodChannelFlutterScreenCapture platform =
       MethodChannelFlutterScreenCapture();
-  const MethodChannel channel = MethodChannel('flutter_screen_capture');
+  const MethodChannel channel = MethodChannel('screen_capture');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
