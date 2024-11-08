@@ -1,6 +1,6 @@
 name: screen_capture
 description: "A Flutter plugin for screen recording on macOS and iOS, supporting system audio."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/TheBilalJaved/screen_capture
 
 environment:

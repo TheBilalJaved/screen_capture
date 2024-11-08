@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'screen_capture'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A Flutter plugin for screen recording on macOS and iOS, supporting system audio.'
   s.description      = <<-DESC
                        This Flutter plugin enables screen recording capabilities on both macOS and iOS.
