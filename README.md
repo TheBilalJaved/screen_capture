@@ -75,7 +75,7 @@ Ensure your macOS application has the necessary permissions:
 
 ## Notes
 
-- This plugin is currently macOS only.
+- This plugin is currently macOS and IOS only.
 - The plugin captures system audio only, not microphone input.
 - Audio is captured through an `AVAudioEngine`, which can be customized further if needed.
 
