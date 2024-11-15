@@ -10,12 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
+  plugin_platform_interface: ^2.1.8
+  permission_handler: ^11.3.1
+  flutter_plugin_android_lifecycle: ^2.0.23
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   plugin:
@@ -24,7 +26,9 @@ flutter:
         pluginClass: FlutterScreenCapturePlugin
       ios:
         pluginClass: FlutterScreenCapturePlugin
-
+      android:
+        pluginClass: FlutterScreenCapturePlugin
+        package: com.example.screen_capture
   # Uncomment the following lines to add assets to your plugin package.
   # assets:
   #   - images/a_dot_burr.jpeg
