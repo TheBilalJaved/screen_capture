@@ -15,8 +15,7 @@ Add `screen_capture` as a dependency in your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  screen_capture:
-    path: path/to/your/plugin
+  screen_capture: <latest version>
 ```
 
 Or install from GitHub (if you’re planning to publish it):
